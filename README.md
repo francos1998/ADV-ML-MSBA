@@ -1,4 +1,4 @@
-# 🚦 **Austin Crash Risk Prediction — Advanced ML Project (UT MSBA)**
+# **Austin Crash Risk Prediction — Advanced ML Project (UT MSBA)**
 
 This repository contains the full implementation of our Advanced Machine Learning final project, focused on modeling the **probability and expected cost of traffic accidents across Austin, Texas**.  
 Using spatiotemporal engineering, weather enrichment, LightGBM, Hurdle modeling, and XGBoost, we built a data pipeline and predictive system capable of identifying high-risk areas and times with strong interpretability and performance.
@@ -7,7 +7,7 @@ This project was completed as part of **MIS 382N — Advanced Machine Learning**
 
 ---
 
-## 📄 **Final Blog Report**
+## **Final Blog Report**
 
 The final deliverable for this project was submitted as a blog-style report:
 
@@ -21,7 +21,7 @@ This blog includes:
 
 ---
 
-## 🗂️ **Repository Structure**
+## **Repository Structure**
 
 \`\`\`
 austin-crash-risk/
@@ -52,7 +52,7 @@ austin-crash-risk/
 
 ---
 
-## 🧠 **Project Motivation**
+## **Project Motivation**
 
 Austin’s rapid population growth and increasingly congested road network have created a pressing need for **data-driven accident risk forecasting**.
 
@@ -70,7 +70,7 @@ Identifying **when** and **where** crashes are most likely enables:
 
 ---
 
-## 🛠️ **Methodology Overview**
+## **Methodology Overview**
 
 This project approaches crash prediction as a **spatiotemporal modeling problem**, integrating:
 
@@ -105,7 +105,7 @@ Used for comparison and capturing nonlinear patterns.
 
 ---
 
-## 🌎 **Key Features Engineered**
+## **Key Features Engineered**
 
 - **Spatial:** H3 hex cell, road type grouping  
 - **Temporal:** hour-of-day, weekday, weekend, monthly seasonality  
@@ -117,7 +117,7 @@ Together, these form the basis of a **spatiotemporal risk surface** for Austin.
 
 ---
 
-## 📊 **Notebooks Overview**
+## **Notebooks Overview**
 
 ### **1. Preprocessing & Feature Engineering**  
 \`01_preprocessing_data_pipeline.ipynb\`
@@ -144,7 +144,7 @@ Together, these form the basis of a **spatiotemporal risk surface** for Austin.
 
 ---
 
-## 🖥️ **How to Run the Project**
+## **How to Run the Project**
 
 ### **1. Clone the repo**
 \`\`\`bash
@@ -163,14 +163,14 @@ Use Jupyter, VSCode, or similar.
 
 ---
 
-## 🎤 **Presentation**
+## **Presentation**
 
 Slides summarizing the methodology and results:  
 \`slides/ADV_ML_Presentation.pdf\`
 
 ---
 
-## 👥 **Team**
+## **Team**
 
 UT Austin — MSBA, Advanced Machine Learning  
 Fall 2024
@@ -183,7 +183,7 @@ Fall 2024
 
 ---
 
-## ⭐ **Summary**
+## **Summary**
 
 This repository demonstrates a full end-to-end spatiotemporal ML pipeline:  
 from raw crash logs to engineered risk surfaces and cost modeling.  
