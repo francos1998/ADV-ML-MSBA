@@ -23,32 +23,31 @@ This blog includes:
 
 ## **Repository Structure**
 
-\`\`\`
 austin-crash-risk/
 │
 ├── data/
-│   ├── raw/                  # Original Austin crash dataset (if size permits)
-│   └── processed/            # Processed model-ready datasets (stored via Git LFS)
+│   ├── raw/                     # Original Austin crash dataset (if size permits)
+│   └── processed/               # Processed model-ready datasets (stored via Git LFS)
 │
 ├── notebooks/
 │   ├── preprocessing/
 │   │   └── 01_preprocessing_data_pipeline.ipynb
-│   │        # EDA, cleaning, feature engineering, H3 grid, weather integration
+│   │        # EDA, cleaning, feature engineering, H3 grid generation, weather integration
 │   │
 │   └── modeling/
 │       ├── 02_lightgbm_hurdle_modeling.ipynb
-│       │     # Binary LightGBM + Hurdle model, SHAP, calibration, visualizations
+│       │        # Binary LightGBM + Hurdle model, SHAP, calibration, visualizations
 │       └── 03_xgboost_modeling.ipynb
-│             # XGBoost modeling, evaluation, and visualizations
+│                # XGBoost modeling, evaluation, and visualization
 │
 ├── reports/
-│   └── final_report.md       # Link to blog-style final report
+│   └── final_report.md          # Link to blog-style final report
 │
 ├── slides/
 │   └── ADV_ML_Presentation.pdf
 │
-└── README.md                 # (This file)
-\`\`\`
+└── README.md
+
 
 ---
 
