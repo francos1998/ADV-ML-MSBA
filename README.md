@@ -23,6 +23,8 @@ This blog includes:
 
 ## **Repository Structure**
 
+````markdown
+```text
 austin-crash-risk/
 │
 ├── data/
