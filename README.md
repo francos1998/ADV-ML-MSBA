@@ -23,32 +23,20 @@ This blog includes:
 
 ## **Repository Structure**
 
+data/raw/ – Contains the original Austin crash dataset (if file size permits uploading)
+data/processed/ – Contains processed model-ready datasets stored via Git LFS
 
+notebooks/preprocessing/ – Contains `01_preprocessing_data_pipeline.ipynb` for EDA, cleaning, feature engineering, H3 grid creation, and weather integration
 
-austin-crash-risk/
-│
-├── data/
-│   ├── raw/                     # Original Austin crash dataset (if size permits)
-│   └── processed/               # Processed model-ready datasets (stored via Git LFS)
-│
-├── notebooks/
-│   ├── preprocessing/
-│   │   └── 01_preprocessing_data_pipeline.ipynb
-│   │        # EDA, cleaning, feature engineering, H3 grid generation, weather integration
-│   │
-│   └── modeling/
-│       ├── 02_lightgbm_hurdle_modeling.ipynb
-│       │        # Binary LightGBM + Hurdle model, SHAP, calibration, visualizations
-│       └── 03_xgboost_modeling.ipynb
-│                # XGBoost modeling, evaluation, and visualization
-│
-├── reports/
-│   └── final_report.md          # Link to blog-style final report
-│
-├── slides/
-│   └── ADV_ML_Presentation.pdf
-│
-└── README.md
+notebooks/modeling/ – Contains:
+    - `02_lightgbm_hurdle_modeling.ipynb` (Binary LightGBM + Hurdle model, SHAP, calibration, visualizations)
+    - `03_xgboost_modeling.ipynb` (XGBoost modeling, evaluation, and visualization)
+
+reports/ – Contains `final_report.md`, which links to the external blog-style final report
+
+slides/ – Contains the project presentation deck `ADV_ML_Presentation.pdf`
+
+README.md – Main project documentation
 
 ---
 
