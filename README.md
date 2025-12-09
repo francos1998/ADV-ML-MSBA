@@ -23,7 +23,7 @@ This blog includes:
 
 ## **Repository Structure**
 
-````markdown
+
 ```text
 austin-crash-risk/
 │
@@ -49,7 +49,6 @@ austin-crash-risk/
 │   └── ADV_ML_Presentation.pdf
 │
 └── README.md
-````markdown
 
 ---
 
